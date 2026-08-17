@@ -19,6 +19,6 @@ A cyberpunk-themed developer portfolio showcasing ethical hacking, game developm
 
 ## 🏃 Run Locally
 ```bash
-git clone [https://github.com/Code-Breaker16/personal-site.git](https://github.com/Code-Breaker16/personal-site.git)
+git clone https://github.com/Code-Breaker16/personal-site.git
 cd personal-site
 open index.html
