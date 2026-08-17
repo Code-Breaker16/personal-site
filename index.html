@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lmao_DK | Cyber & F1 Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>lmao_Dk</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="passions">Passions & Idols</a>
+            <a href="projects">Projects</a>
+            <a href="achievements">Achievements</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="profile-hero">
+            <img src="https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcTVzhReKMZeuwxZQAN9FVn1dLEGuzU4xBod8aXsMS1B3Gcww2_VRqBKhH7kzLyAtaz3R4UkR1YUXk2EhOY" alt="Cartoon Hacker Avatar" class="hacker-avatar">
+            <div>
+                <h2 style="color: var(--accent); font-family: monospace;">> lmao_Dk</h2>
+                <p style="color: var(--text-muted);">Class 12 Science Student | Cybersecurity Enthusiast | Culer & F1 Fanatic</p>
+            </div>
+        </div>
+
+        <div class="terminal-card">
+            <div class="terminal-header">
+                <div class="dot dot-red"></div>
+                <div class="dot dot-yellow"></div>
+                <div class="dot dot-green"></div>
+                <span class="terminal-title">bash - 80x24</span>
+            </div>
+            <div class="terminal-body">
+                <span class="prompt-prefix">user@lmao_Dk:~$</span> <span id="typewriter"></span><span class="cursor">&nbsp;</span>
+            </div>
+        </div>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="card">
+                <p>
+                    Hey! I'm <b>lmao_Dk</b>, a <i>Class 12 Science student</i> based in India.
+                    I am passionate about computing, network defense, game development, and exploring how the systems work under the hood.
+                    When I'm not testing web security or making games; I am either watching <b>F1</b> or on the court playing <b>Badminton</b>
+                </p>
+                <div class="badge-container">
+                    <span class="badge">Class 12 Sci</span>
+                    <span class="badge">India 🇮🇳</span>
+                    <span class="badge">Cybersec Enthusiast</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="passions">
+            <h2>Passions & Idols</h2>
+            <div class="grid">
+
+                <div class="card">
+                    <h3>🏎️ Formula 1 & Lewis Hamilton</h3>
+                    <p>Massive <b>F1 fan</b> inspired by <b>Sir Lewis Hamilton(#44)</b> for his relentless pursuit of perfection, speed, pushing boundaries on and off the track.</p>
+                    <div class="badge-conatiner">
+                        <span class="badge">LH44</span>
+                        <span class="badge">F1</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>🔵🔴 FC barcelona & Lionel Messi</h3>
+                    <p>Proud <b>Culer</b>. Driven by genius of <b>Lionel Messi</b>, demonstrating ultimate mastery, vision, and creativity under high pressure.</p>
+                    <div class="badge-container">
+                        <span class="badge">Visca el Barça</span>
+                        <span class="badge">Messi #10</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section id="projects">
+            <h2>Projects & Interactive Demos</h2>
+            <div class="grid">
+
+                <div class="card">
+                    <h3>🎮 Flipside Slime (Game Jam Project)</h3>
+                    <p>Participated in a game jam with my team and developed <b>Flipside Slime</b> using Unity! Built mechanic features, gameplay logic, and level dynamics under high time constraints.</p>
+                    <p style="margin-top: 1rem">
+                        <a href="https://fpsbyaj.itch.io/flipsideslime" target="_blank" class="btn-link">Play on itch.io ↗</a>
+                    </p>
+                    <div class="badge-container">
+                        <span class="badge">Unity</span>
+                        <span class="badge">C#</span>
+                        <span class="badge">Game Jam</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>🛡️ SQL Injection (SQLi) Interactive Demo</h3>
+                    <p>Understand database vulnerability exploitation and sanitization.</p>
+                    <div class="sqli-box">
+                        <label>Try SQLi payload</label>
+                        <input type="text" id="sqliInput" value="' OR '1'='1'" oninput="checkSQLi()">
+                        <div class="sqli-output" id="sqlResult">Query; SELECT * FROM users WHERE user='' OR '1'=1'</div>
+                    </div>
+                </div>
+            
+            </div>
+        </section>
+
+        <section id="acheivements">
+            <h2>Leadership & Athletics</h2>
+            <div class="grid">
+
+                <div class="card">
+                    <h3>👑 School Head Boy</h3>
+                    <p>Served as <b>Head Boy</b>, leading student council initiatives, organising school events, and representing the student body.</p>                    
+                </div>
+                
+                <div class="card">
+                    <h3>⚽ School Football Team</h3>
+                    <p>Proud core member of the school varsity football team.</p>
+                </div>
+            
+            
+            </div>
+        </section>
+    
+    </div>
+
+    <div class="corner-avatar-conatiner">
+        <img src="https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcT_IE0l8OfoWqmGdH2jSUpEADtz-mDpMqdIr6yYZYB7tYFxkRTwIdNFCztneXekuYgCzUEmQI0QwodQXIg" alt="Lewis Hamiltion #44 avatar" class="corner-avatar">
+        <span class="avatar-badge">LH44</span>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
