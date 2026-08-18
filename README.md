@@ -1,4 +1,4 @@
-# lmao_DK — My personal site
+# ✨ lmao_DK — My personal site
 
 This is my small space where i'm showcasing myself to the world for the very first time. Hope you guys appreciate it.
 
@@ -11,7 +11,7 @@ This is my small space where i'm showcasing myself to the world for the very fir
 * **Frontend:** HTML5, CSS3, Vanilla JavaScript
 * **Hosting:** Vercel, Github pages
 
-## 🎮 Featured Projects
+## Featured Projects
 * **Flipside Slime (Game Jam):** Built with Unity & C#. My part was the designing and debugging part and this was my first time building a game, I really enjoyed it. [Play on itch.io](https://fpsbyaj.itch.io/flipsideslime)
 * **SQL Injection Playground:** Interactive web vulnerability demonstration. So how this part works is like initially when u see it the text below the text box is red and when u type something it becomes green showing a vulnerability is present and ppl can use this query to get to it.
 
